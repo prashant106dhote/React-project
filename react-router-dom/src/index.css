@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html,body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%,-50%);
+    text-decoration:underline;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgb(15, 115, 215);
+}
+.nav div{
+   display: flex;
+   align-items: center;
+   gap: 40px; 
+}
